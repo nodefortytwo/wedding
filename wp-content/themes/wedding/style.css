@@ -165,7 +165,7 @@ height: 122px;
 	float: left;
 }
 
-#topmenu .nav-menu ul li {
+#topmenu .menu-primary-container ul li {
 	line-height: 33px;
 	color: #3f403f;
 	z-index: 1300;
