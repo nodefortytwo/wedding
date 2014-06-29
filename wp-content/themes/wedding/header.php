@@ -59,7 +59,7 @@
 		            </div>
 
 		            <nav id="topmenu">  			
-		        		<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>
+		        		<?php wp_nav_menu( array( 'theme_location' => 'main_nav', 'menu_class' => 'nav-menu' ) ); ?>
 		        	</nav>
 
 
