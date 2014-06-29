@@ -1,16 +1,14 @@
 <?php
 /*
-Template Name: Left Sidebar Page
+Template Name: Full Width Page
 */
 ?>
 
 <?php get_header(); ?>
 			
 			<div id="content" class="clearfix row">
-            
-            	<?php get_sidebar(); // sidebar 1 ?>
 			
-				<div id="main" class="col col-lg-8 clearfix" role="main">
+				<div id="main" class="col col-lg-12 clearfix" role="main">
 
 					<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 					
@@ -55,6 +53,8 @@ Template Name: Left Sidebar Page
 					<?php endif; ?>
 			
 				</div> <!-- end #main -->
+    
+				<?php //get_sidebar(); // sidebar 1 ?>
     
 			</div> <!-- end #content -->
 
