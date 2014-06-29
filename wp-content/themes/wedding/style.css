@@ -178,6 +178,15 @@ height: 122px;
 	background-color: #fff;
 }
 
+#topmenu .menu-primary-container ul li a{
+	color: #3f403f;
+}
+
+#topmenu .menu-primary-container ul li a:hover,
+#topmenu .menu-primary-container ul li .current-menu-item{
+	color: #a466b3;
+}
+
 #main {
 	max-width: 562px;
 	margin-left: 40px;
