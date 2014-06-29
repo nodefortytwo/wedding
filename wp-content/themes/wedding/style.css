@@ -24,8 +24,8 @@ footer{
 	display: none;
 }
 
-body.page {
-	background-color: transparent;
+body {
+	background-color: transparent !important;
 }
 
 .home-panel{
