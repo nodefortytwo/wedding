@@ -28,6 +28,22 @@ body {
 	background-color: none;
 }
 
+h2{
+	font-size:14px;
+	display:block;
+	width:100%;
+	padding-bottom:3px;
+	border-bottom:1px dotted #ccc;
+}
+
+h3{
+	font-size:13px;
+	font-weight:bold;
+	padding-top:10px;
+	margin:10px 0;
+}
+
+
 .home-panel{
 }
 
@@ -195,4 +211,17 @@ height: 122px;
 #main .page-header{
 	margin-top: 10px;
 	margin-bottom: 10px;
+}
+
+.thumbnail{
+	margin-bottom:5px;
+	margin-right:5px;
+}
+
+h3{
+	clear:both;
+}
+
+.clearfix:before, .clearfix:after{
+	clear:both;
 }
