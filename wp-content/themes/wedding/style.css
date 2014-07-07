@@ -93,9 +93,11 @@ and (max-device-width : 568px)
 
 	.menu-primary-container{
 		border-top: 1px dashed #ccc;
+		margin-top: 10px;
 	}
 	.menu-primary-container li{
 		border-bottom: 1px dashed #ccc;
+		background-color: white;
 	}
 }
 
