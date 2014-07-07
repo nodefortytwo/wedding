@@ -69,6 +69,8 @@ and (max-device-width : 568px)
 
 	.menu-primary-container *{
 		list-style: none;
+		margin: 0;
+		padding: 0;
 	}
 
 	.head_names{
@@ -83,6 +85,13 @@ and (max-device-width : 568px)
 		color: #f67320;
 		display: inline-block;
 		padding: 0 5px;
+	}
+
+	.menu-primary-container a{
+		width: 100%;
+		display: block;
+		clear: both;
+		bottom: 1px dashed #ccc;	
 	}
 }
 
