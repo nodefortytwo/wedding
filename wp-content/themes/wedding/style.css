@@ -12,6 +12,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html http://www.apache.org/lice
 
 /* HEADS UP: Everything that you will normally find here can be found in the library/less/wp.less */
 
+<<<<<<< HEAD
 @media only screen 
 and (min-device-width : 568px) 
 {
@@ -30,6 +31,22 @@ and (min-device-width : 568px)
 	body {
 		background-color: none;
 	}
+
+	h2{
+		font-size:14px;
+		display:block;
+		width:100%;
+		padding-bottom:3px;
+		border-bottom:1px dotted #ccc;
+	}
+
+	h3{
+		font-size:13px;
+		font-weight:bold;
+		padding-top:10px;
+		margin:10px 0;
+	}
+
 
 	.home-panel{
 	}
@@ -200,4 +217,16 @@ and (min-device-width : 568px)
 		margin-bottom: 10px;
 	}
 
+	.thumbnail{
+		margin-bottom:5px;
+		margin-right:5px;
+	}
+
+	h3{
+		clear:both;
+	}
+
+	.clearfix:before, .clearfix:after{
+		clear:both;
+	}
 }
