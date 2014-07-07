@@ -71,6 +71,10 @@ and (max-device-width : 568px)
 		list-style: none;
 		margin: 0;
 		padding: 0;
+		width: 100%;
+		display: block;
+		clear: both;
+		text-align: center;
 	}
 
 	.head_names{
@@ -91,7 +95,8 @@ and (max-device-width : 568px)
 		width: 100%;
 		display: block;
 		clear: both;
-		bottom: 1px dashed #ccc;	
+		bottom: 1px dashed #ccc;
+		text-align: center;	
 	}
 }
 
