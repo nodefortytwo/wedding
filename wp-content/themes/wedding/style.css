@@ -16,6 +16,37 @@ html {
 	background: url(http://subtlepatterns.com/patterns/paper_fibers.png);
 }
 
+footer{
+		display: none;
+	}
+
+h2{
+	font-size:14px;
+	display:block;
+	width:100%;
+	padding-bottom:3px;
+	border-bottom:1px dotted #ccc;
+}
+
+h3{
+	font-size:13px;
+	font-weight:bold;
+	padding-top:10px;
+	margin:10px 0;
+}
+
+@media only screen 
+and (max-device-width : 568px) 
+{
+	body{
+		padding: 10px;
+	}
+
+	.menu-primary-container *{
+		list-style: none;
+	}
+}
+
 @media only screen 
 and (min-device-width : 568px) 
 {
@@ -27,28 +58,13 @@ and (min-device-width : 568px)
 	  background-size: cover;
 	}
 
-	footer{
-		display: none;
-	}
+	
 
 	body {
 		background-color: none;
 	}
 
-	h2{
-		font-size:14px;
-		display:block;
-		width:100%;
-		padding-bottom:3px;
-		border-bottom:1px dotted #ccc;
-	}
-
-	h3{
-		font-size:13px;
-		font-weight:bold;
-		padding-top:10px;
-		margin:10px 0;
-	}
+	
 
 
 	.home-panel{
