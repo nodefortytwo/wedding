@@ -78,6 +78,12 @@ and (max-device-width : 568px)
 	.head_names *{
 		display: inline;
 	}
+
+	.head_amp{
+		color: #f67320;
+		display: inline-block;
+		padding: 0 5px;
+	}
 }
 
 @media only screen 
