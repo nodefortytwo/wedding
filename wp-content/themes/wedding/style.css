@@ -70,6 +70,14 @@ and (max-device-width : 568px)
 	.menu-primary-container *{
 		list-style: none;
 	}
+
+	.head_names{
+		text-align: center;
+	}
+
+	.head_names *{
+		display: inline;
+	}
 }
 
 @media only screen 
