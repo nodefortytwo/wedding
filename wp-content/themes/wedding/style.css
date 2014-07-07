@@ -35,6 +35,31 @@ h3{
 	margin:10px 0;
 }
 
+.home-panel .mid h1{
+		margin: 0;
+		padding: 0;
+		text-align: center;
+		font-size: 20px;
+		font-family: 'Copse', Georgia, Times, serif;
+		font-weight: normal;
+		line-height: 1.1em;
+	}
+
+	.sub-title {
+		text-transform: uppercase;
+		text-align: center;
+		font-size: 15px;
+		color: #f67320;
+		font-family: 'Copse', Georgia, Times, serif;
+		margin:0;
+		margin-bottom: 20px;
+	}
+
+	.sub-title sup {
+		font-size: 50%;
+		top: -0.6em;
+	}
+
 @media only screen 
 and (max-device-width : 568px) 
 {
@@ -85,30 +110,7 @@ and (min-device-width : 568px)
 		background: url(images/main_bg_tb.png) center -70px no-repeat;
 	}
 
-	.home-panel .mid h1{
-		margin: 0;
-		padding: 0;
-		text-align: center;
-		font-size: 20px;
-		font-family: 'Copse', Georgia, Times, serif;
-		font-weight: normal;
-		line-height: 1.1em;
-	}
-
-	.sub-title {
-		text-transform: uppercase;
-		text-align: center;
-		font-size: 15px;
-		color: #f67320;
-		font-family: 'Copse', Georgia, Times, serif;
-		margin:0;
-		margin-bottom: 20px;
-	}
-
-	.sub-title sup {
-		font-size: 50%;
-		top: -0.6em;
-	}
+	
 
 
 	.head_names {
