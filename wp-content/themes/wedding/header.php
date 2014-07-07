@@ -50,7 +50,7 @@
 			                	<strong>RICK</strong> <em>BURGESS</em>
 			                </span>
 		                </div>
-		                <span class="head_amp"></span>                
+		                <span class="head_amp">&amp;</span>                
 		                <div class="head_name_right">
 			                <span class="head_name">
 			                	<strong>LOUISE</strong> <em>DUNNE</em>
